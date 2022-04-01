@@ -58,4 +58,4 @@ app.get("/notes",  (req, res) => {
 });
 
 //Listening Port
-app.listen(3001)
+const PORT = process.env.PORT || 3001

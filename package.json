@@ -9,6 +9,6 @@
     "scripts": {
     "devStart": "nodemon server.js"
   }
-
-}
+    
+  }
 
