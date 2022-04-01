@@ -5,7 +5,6 @@ const path = require("path");
 const notes = require('./db.json'); // homework\SuperNotes\db.json
 const uuid = require('./uuid');
 
-console.log(notes)
 
 //Middleware
 app.use(express.urlencoded({ extended: true }));
@@ -59,3 +58,4 @@ app.get("/notes",  (req, res) => {
 
 //Listening Port
 const PORT = process.env.PORT || 3001
+app.listen(PORT)
